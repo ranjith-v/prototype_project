@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout">
+	<Dialog title="Confirmation -- Webpage Dialog">
+		<content >
+			<Text text="Are you Sure ?"/>
+		</content>
+		
+		<beginButton>
+			<Button text="Yes" press="onStatusOkClick"/>
+		</beginButton>
+		<endButton>
+			<Button text="No" press="closeDialog"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,22 @@
+<mvc:View controllerName="Demo.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" displayBlock="true" xmlns="sap.m">
+	<App class="nrgREApp" id="app">
+		<pages>
+			<Page>
+				<Panel class="sapUiDemoFlexBoxSizeAdjustments nrgIspViewPanel">
+					<FlexBox wrap="NoWrap">
+						<items>
+							<Panel expandable="false" expanded="true" headerText="Installation Data" class="nrgQtApp-panel2 nrgIspViewPanel sapMPanelBGTransparent"
+								width="46.5rem">
+								<Text text="Inside Panel 2"/>
+							</Panel>
+							<Panel expandable="false" expanded="true" headerText="Discounts" class="nrgQtApp-panel2 nrgIspViewPanel sapMPanelBGTransparent">
+								<Text text="Inside Panel 3"/>
+							</Panel>
+						</items>
+					</FlexBox>
+				</Panel>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

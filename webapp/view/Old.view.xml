@@ -1,0 +1,116 @@
+<mvc:View controllerName="Demo.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" displayBlock="true" xmlns="sap.m" >
+<!--
+	<Panel width="auto" class="sapUiResponsiveMargin">
+		<headerToolbar>
+			<Toolbar height="3rem">
+				<Title text="Panel with picture"/>
+			</Toolbar>
+		</headerToolbar>
+		<content>
+			<Text text="et dolore magna aliquyam erat"/>
+			<Button text="Press Here" press="handlePress" class="sapUiMediumMargin"/>
+			<core:Fragment fragmentName="Demo.fragments.panel" type="XML"/>
+		</content>
+	</Panel>  
+	-->
+	<Panel width="auto" class="sapUiResponsiveMargin">
+		<content>
+			<SearchField width="50%" id="searchID" class="sapUiSmallMargin" search="onSearch" value="{jss>/name}"/>
+			<l:VerticalLayout class="sapUiContentPadding" width="10%">
+				<l:content>
+					<Link text="LEAD" press="handleLinkPress"/>
+					<Link text="SAVE1{/}" press="handleLinkPress"/>
+					<Link text="SAVE2" press="handleLinkPress"/>
+					<Link text="SAVE3" press="handleLinkPress"/>
+					<Link text="SAVE4" press="handleLinkPress"/>
+					<Link text="SAVE2" target="_blank" href="http://www.sap.com"/>
+				</l:content>
+			</l:VerticalLayout>
+			<l:VerticalLayout class="sapUiContentPadding" width="40%">
+				<l:content>
+					<l:HorizontalLayout allowWrapping="true" >
+						<l:content>
+							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Sales Fulfillment Application Title" subheader="Subtitle"
+								press="press">
+								<tileContent>
+									<TileContent unit="EUR" footer="Current Quarter">
+										<content>
+											<ImageContent src="sap-icon://home-share"/>
+										</content>
+									</TileContent>
+								</tileContent>
+							</GenericTile>
+							
+							<TileContent class="sapUiSmallMargin">
+								<content>
+									<NewsContent contentText="Product Tile " subheader="Display Product Tile Info" press="press"></NewsContent>
+								</content>
+							</TileContent>
+							<TileContent footer="August 21, 2013" class="sapUiSmallMargin">
+								<content>
+									<NewsContent contentText="Pollution free controller" subheader="SAP News"/>
+								</content>
+							</TileContent>
+						</l:content>
+					</l:HorizontalLayout>
+				</l:content>
+			</l:VerticalLayout>
+			<!--
+			<l:VerticalLayout class="sapUiContentPadding equalColumns" width="100%">
+				<l:content>
+					<FlexBox width="95%" class="columns" alignItems="Stretch">
+						<items>
+							<Link text="LEAD" press="handleLinkPress"/>
+							<Link text="SAVE1" press="handleLinkPress"/>
+							<Link text="SAVE2" press="handleLinkPress"/>
+							<Link text="SAVE3" press="handleLinkPress"/>
+							<Link text="SAVE4" press="handleLinkPress"/>
+							<Text class="column2"
+								text=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. ........At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+						</items>
+					</FlexBox>
+				</l:content>
+			</l:VerticalLayout> -->
+		</content>
+	</Panel>
+	
+			<l:VerticalLayout class="sapUiContentPadding" width="50%">
+		
+			<l:content>
+			
+				
+					
+						<TileContent footer="August 21, 2023">
+							<content>
+								<NewsContent
+									contentText="SAP Unveils Powerful New Player Comparision Tool Exclusively on NFL.com"
+									subheader="Today, SAP News">
+								</NewsContent>
+							</content>
+						</TileContent>
+				
+			
+				<GenericTile >
+					<tileContent>
+						<TileContent footer="June 21, 2016">
+							<content>
+								<NewsContent
+									contentText="Wind Map: Monitoring Real-Time and Forecasted Wind Conditions across the Globe"
+									subheader="Today, SAP News">
+								</NewsContent>
+							</content>
+						</TileContent>
+					</tileContent>
+				</GenericTile>
+		
+			</l:content>
+		
+			
+		</l:VerticalLayout>
+
+</mvc:View>
